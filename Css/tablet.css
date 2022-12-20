@@ -1,0 +1,32 @@
+    
+ .abilities--container{   
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;}
+
+    main section .Profile-img {
+        width: 90%;
+        min-width: 288px;
+        max-width: 370px;
+        height: 150px;
+        padding: 15px;
+        background-color: var( --Black1 );
+        border-radius: 5px;
+        box-shadow: rgb(0 0 0 / 16%) 0px 4px 8px;}
+
+   .acomodo{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    
+    
+    
+    border-radius: 5px;
+   
+
+}
