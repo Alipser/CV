@@ -1,0 +1,397 @@
+:root{
+    --PrimaryColor: #f7931a;
+    --SecondaryColor: #ffe9d5;
+    --ContrastColor: #1a9af7;
+    --SoftContrast: #E7F5FF;
+    --Black: #201e1c;
+    --Black1: #282623;
+    --grey: #bababa;
+    --Offwhite: #faf8f7;
+    --white: #fff
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   font-size: 62.5%;
+   font-family: 'DM Sans', 'sans-serif';
+
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height:  auto;
+    text-align: center;
+}
+header img{
+    width: 100%;
+    min-width: 320px;
+    max-width: 480px;    
+    align-self: center;
+}
+
+.header--div-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 288px;
+    /*max-width: 900px;*/
+    height: 250px;
+    margin-top:50px;
+    text-align: center;
+    align-self: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%)
+    ; width: 100%;
+}
+
+header .header--div-container h1 {
+    font-size:  2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Offwhite);
+    
+}
+
+header .header--div-container p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--SecondaryColor);
+    width: 80%;
+    justify-content: center;
+    align-self: center;
+}
+
+header .header--div-container .header--button{
+    position: absolute;    
+    display:block;
+    margin-top: 25px;
+    padding: 15px;
+    width: 229px;
+    height: 60px;
+    background-color: var(--Offwhite);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--Black);
+    left: calc(50% - 115px);
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    top: 250px;
+    
+
+}
+.header--button a{
+    position: relative;
+    height: 100%;
+    top: -10px;
+    font-size:  2rem;
+}
+
+.header--button span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    background-image: url('./Bin/Icons/expand_circle_down_FILL0_wght400_GRAD0_opsz48.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 100%;
+    min-width: 320px;     
+    height:auto; 
+    align-self: center;  
+    margin: 0;
+}
+
+.main-cv-container{
+    
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Offwhite);    
+  
+}
+
+.main-cv-container--title, .main-table-container{
+    width: 80%;
+    min-width: 288px;
+    max-width: 900px;    
+    
+}
+
+
+main .main-cv-container p{
+    font-size: 2.4rem;
+    margin-bottom: 45px;
+    color: #757575;
+}
+
+ .main-cv-container h2{
+    font-size: 3.2rem;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.main-cv-container .backgroundImg{
+    width: 200px;
+    height: 200px;
+    background-image: url("./Bin/Icons/CHE.png");
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.table--div-container{
+    display: flex;
+    align-self: center ;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .main-table-container .table--title{
+    color: var(--PrimaryColor);
+    text-shadow: -1px -1px rgb(253, 238, 126), 1px 1px #333
+
+}
+
+main .table--div-container div{
+    margin-right: 15px;
+    margin-bottom: 36px;
+    background-color: white;
+    max-width: 210px;
+    margin: 0 auto;
+}
+
+
+.table--div-container td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(white);
+
+}
+
+main .table-subtitle{
+    color: var(--PrimaryColor);
+    font-weight: bold;
+    font-size:1.8rem;
+
+}
+main .main-habilities-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    padding: 20px 10px;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.Icon-abilities{
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    background-image: url("./Bin/Icons/skill.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -15px;
+    left: calc(50% - 25px);
+
+}
+.abilities-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin-top: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.abilities-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: white;
+    line-height: 2.6rem;
+    text-align: center;
+}
+
+
+.abilities-detail--title p{
+    margin-top: 12px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    font-weight: 500;
+    color: #808080;
+}
+
+.abilities--container{
+    width: 100%;
+    min-width: 320px;
+    padding: 20px 10px;
+    height: auto;
+    background-color: black;
+    text-align: left;
+
+}
+
+.abilities--detail-card{
+    align-items: left;
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var( --Black1 );
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+
+}
+
+.abilities--detail-card  span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./Bin/Icons/skill.png");
+    background-size: cover;
+    background-position: no-repeat;
+    position: relative;
+    
+      
+}
+
+main .abilities--detail-card .ability--card-tittle{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.9rem;
+    color: rgb(255, 255, 255);
+
+
+}
+main .abilities--detail-card .ability--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+
+}
+
+main section .Profile-img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+    min-width: 288px;
+    max-width: 400px;
+    max-height: 400px;
+    align-self: center;
+    height: 100vh;
+    background-image: url("./Bin/ROMARIO.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+main section .Profile-img h2{
+    color: var(--grey);
+    text-shadow: -1px -1px rgb(253, 238, 126), 1px 1px #333;
+    font-size: 2.9rem;
+}
+
+
+
+main .road-card-container{
+    
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    min-width: 280px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    margin-bottom:32px;
+    overflow-x:scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    
+    
+}
+
+main .road-card-container .road-card{
+    display: flex;
+    scroll-snap-align: center;
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 210px;    
+    margin: auto auto;
+    padding: 0 15px;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    flex-direction: column;
+    justify-content: center;
+}
+main .road-card-container .road-card .road-card-icon-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 120px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+main .road-card-container .road-card .html
+{background-image: url("./Bin/HTML5_logo.png");}
+
+main .road-card-container .road-card .css{
+    background-image: url("./Bin/css3-logo.png");
+}
+main .road-card-container .road-card .javascript{
+    background-image: url("./Bin/javascript.png");
+}
+main .road-card-container .road-card .java{
+    background-image: url("./Bin/Java.png");
+}
+main .road-card-container .road-card .python{
+    background-image: url("./Bin/python.png");
+}
+
+
