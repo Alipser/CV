@@ -1,4 +1,12 @@
     
+ html{
+    font-size: 62.5%;
+ }
+
+ main section .abilities--container{
+    margin-bottom: 120px;
+ }
+
  .abilities--container{   
     
     display: flex;
